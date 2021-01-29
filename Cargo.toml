@@ -13,6 +13,7 @@ categories = ["game-engines", "rendering"]
 
 [dependencies]
 bevy = { version = "0.4", default-features = false, features = ["render"] }
+bevy_fly_camera = "0.6"
 #bevy = { git = "https://github.com/bevyengine/bevy", branch = "master", default-features = false, features = ["render"] }
 
 [features]
